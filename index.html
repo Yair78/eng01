@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+   <span class="score scoreX">X'score=0</span>
+   <span class="score scoreO">O'score=0</span>
+   <div class="parentOfGame">
+     <span class="showWiner"></span>
+     <span class="forOne forX"></span>
+     <span class="forTwo forX"></span>
+     <span class="forThree forX"></span>
+     <span class="forFour forX"></span>
+     <span class="forFive forX"></span>
+     <span class="forSix forX"></span>
+     <span class="forSeven forX"></span>
+     <span class="forEight forX"></span>
+     <span class="forNine forX"></span>
+     <svg width="300" height="300" style="background-color: black;">
+       <line x1="0" y1="100" x2="300" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+       <line x1="0" y1="200" x2="300" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+       <line x1="100" y1="0" x2="100" y2="300" style="stroke:rgb(255,0,0);stroke-width:2" />
+       <line x1="200" y1="0" x2="200" y2="300" style="stroke:rgb(255,0,0);stroke-width:2" />
+     </svg>
+   </div>
+    <div>
+      <div class="restartButton" onclick="restarted()">Restart</div>
+      <div class="nextButton" onclick="nextCall()">Next</div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
