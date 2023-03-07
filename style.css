@@ -1,0 +1,200 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+}
+.container{
+  background-color: #E9E8E8;
+  width:100vw;
+  height: 100vh;
+  position: relative;
+}
+.header{
+  width: 100%;
+  height: 57px;
+  background-color:#5B8FB9;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.section{
+  display :flex;
+  flex-direction: column;
+  align-items: center ;
+  background-color: #609EA2;
+  height: 100%;
+}
+.footer{
+  background-color:#5B8FB9;
+  width: 100%;
+  height: 55px;
+  
+}
+.pancilIcon{
+ width :27px;
+ height:30px;
+ margin-bottom: 1px;
+ margin-right: 5px;
+}
+.icon{
+   width :50px;
+   height:50px;
+}
+.parentOfTwoIcon{
+  margin-right:10px;
+}
+
+.p{
+  color: #A5F1E9;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.p1{
+  font-weight: bold;
+  font-size: 24px;
+  color: #2E3840;
+}
+.searchIcon{
+  width:35px;
+  height: auto;
+  margin-top: 3px;
+}
+.firstBox{
+  width:95%;
+  height: 350px;
+  background-color: #CFF5E7;
+  border: 1px darkgray solid;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.headerOfFirst{
+  width: 100%;
+  height: 45px;
+  background-color: #93C6E7;
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  border-bottom: 1px grey solid;
+  position: relative;
+}
+
+.p2{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.firstBoxBody{
+  width:100%;
+  
+  overflow-y: scroll;
+  height: 88.8%;;
+}
+.scrollFirstBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+
+}
+.shoppingList{
+  background-color:#C8FFD4 ;
+  width: 94%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  padding: 2px 5px 2px 5px;
+  border-bottom: 1px darkgray solid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price{
+  color:red;
+  font-weight: lighter;
+}
+.product{
+  color:blue;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 280px;
+  
+ }
+
+.zoomingIcon{
+  width:30px;
+  height :30px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+.littleBox{
+  background-color: #0F6292;
+  border: 2px gray solid;
+  width: 240px;
+  position: absolute;
+  top:41px;
+  left: 55px;
+  padding: 10px;
+  border-radius: 6px;
+  display: none;
+}
+.littleBox>p{
+  color:#ECF9FF;
+  margin-bottom: 1px;
+  font-size: 16px;
+  padding: 0;
+}
+.backFromLittleBox{
+  width:30px;
+  margin-left:205px;
+}
+.littleBox>input{
+  width: 230px;
+  height: 28px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 12px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: skyblue;
+  box-shadow: 2px 2px 5px #ccc;
+  
+}
+.btnOfLittleBox{
+  border: none;
+  display: block;
+  margin-top: 10px;
+  padding:4px 6px 4px 6px;
+  border-radius: 5px;
+  
+}
+.nthSpan{
+  font-size: 15px;
+  margin: 150px 0px 0px 0px;
+}
+.resizeZoom{
+  width:30px;
+  margin-bottom: 2.9px;
+  display: none;
+  margin-left: 7px;
+}
+#myInput {
+    height: 13px;
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    width:340px;
+    
+  }
+  .parentOfInput{
+    position: sticky;
+    top:0;
+    background-color: #CFF5E7 ;
+    display: none;
+    opacity: 0.98;
+  }
